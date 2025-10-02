@@ -12,7 +12,7 @@ print(b.ndim)
 # 2D tensor/matrix
 c = np.array([[1,2,3],[4,5,6]])
 print(c)
-print(c.shape)
+print(c.shape) # (2*3)
 print(c.ndim)
 
 # 3D tensor
