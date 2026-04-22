@@ -18,3 +18,6 @@ plt.show()
 
 prof = ProfileReport(df, title='Customer Data Profile Report', explorative=True)
 prof.to_file(output_file='customer_data_profile_report.html')
+
+
+#
