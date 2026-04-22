@@ -15,7 +15,7 @@ print(df.isnull().sum())
 print(df.describe())
 
 #are there any duplicate rows?
-print(df.duplicated().sum())
+#print(df.duplicated().sum())
 
 #how is the correlation between numerical columns?
-print(df.corr())
+#print(df.corr())
