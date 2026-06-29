@@ -15,3 +15,11 @@ imputer = SimpleImputer(strategy='constant',fill_value='Missing')
 
 X_train = imputer.fit_transform(X_train)
 X_test = imputer.transform(X_train)
+
+# Comparision with Simple Imputer --> mean
+
+si = SimpleImputer()
+
+X_train_trf2 = si.fit_transform(X_train)
+X_test_trf2 = si.transform(X_test)
+
